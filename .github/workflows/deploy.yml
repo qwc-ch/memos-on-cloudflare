@@ -30,7 +30,7 @@ jobs:
         run: node scripts/fetch-github-version.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_VERSION_OWNER: jkjoy
+          GITHUB_VERSION_OWNER: qwc-ch
           GITHUB_VERSION_REPO: memos-on-cloudflare
 
       - name: Apply D1 migrations
